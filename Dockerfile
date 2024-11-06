@@ -6,11 +6,9 @@ RUN mkdir -p /home/courses/cmpt353/project/
 WORKDIR /home/courses/cmpt353/project/
 
 COPY requirements.txt ./
-
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY data ./
-COPY .env ./
+COPY data src .env config.py main.py ./
 
 # CMD ["..."]
 # RUN ...
