@@ -3,3 +3,6 @@
 
 # For pyenv local version control
 .python-version
+
+# Others
+__pycache__
