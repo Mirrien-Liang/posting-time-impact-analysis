@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ig-engagement-analyzer:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./data/output:${OUTPUT_DIR}
+      - ig-engagement-analyzer-vol:${PROJECT_DIR}
+
+volumes:
+  ig-engagement-analyzer-vol:
