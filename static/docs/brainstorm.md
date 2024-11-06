@@ -17,3 +17,35 @@ The data was collected through a Python-based web scraping project (using Seleni
 In the dataset, for each Instagram account, we have both metadata (e.g., Instagram ID, account type, counts of followers/following/posts biography, etc.), as well as content-specific data (e.g., post links, counts of likes/comments/views, posting datetime, caption, etc.) for up to 12 most recent _Posts_ (defined by Instagram as images, carousel of images, or _reels_) and up to 36 most recent _Reels_ (short-form videos). The dataset can be downloaded and preview [here](https://github.sfu.ca/mirrienl/CMPT353-Project/blob/3ad1e12da4f6215a56ea25ae2e937a66f6e37025/data/sample/sample.csv).
 
 Please let us know if this topic is appropriate for our project, and if we can proceed to the next steps. Thank you!
+
+# Meet #1
+
+# Best Time to Post
+TODO:
+- Focus only on reels (short videos)
+- Calculate the average reels per users after data cleaning
+- Create a column of `weekday` for each reel (`1-7`)
+- Create a column of `time_group` for each reel (`0-8`, `8-16`, `16-24`)
+- Histogram of number of reels for each of the 21 bins for all users
+
+- Handle outliers and invalid points
+    - Outliers:
+        - extreme inbalance in likes/comments/views
+        - 
+    - Invalid:
+        - Fake engagement
+
+        - Private accounts
+        - New accounts
+
+- Define what velocity rate is
+- Normalize rate for each post
+- Aggregate rates in each bin
+- Hypothesis test over 21 bins
+    - H0: The engagement velocity is 
+
+# Link in Content vs. Engagement
+TODO:
+- Create a column of `has_link` for each reel
+- Hypothesis test:
+    - H0: Has link will not impact engagement velocity

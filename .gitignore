@@ -1,0 +1,8 @@
+# May store real sensitive values
+.env
+
+# For pyenv local version control
+.python-version
+
+# Others
+__pycache__
