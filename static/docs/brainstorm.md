@@ -49,3 +49,11 @@ TODO:
 - Create a column of `has_link` for each reel
 - Hypothesis test:
     - H0: Has link will not impact engagement velocity
+
+# Data cleaning
+- Filter out posts that are too old/recent. Make sure to not lose more than 5% of data set (Ohm)
+- Aggregate, converting into day time and score (Mirrien)
+- Remove outliers/invalid data (Mirrien)
+
+# Data analysis
+- ANOVA test
