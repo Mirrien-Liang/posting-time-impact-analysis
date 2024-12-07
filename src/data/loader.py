@@ -4,7 +4,7 @@ from typing import Any, Optional
 
 
 class DataLoader:
-    def __init__(self, path: str = "../data/input/instagram.csv") -> None:
+    def __init__(self, path: str = "data/input/instagram.csv") -> None:
         self.path = self._validate(path)
 
     def get_data(self) -> Optional[pd.DataFrame]:
@@ -88,6 +88,6 @@ class DataLoader:
 
 if __name__ == "__main__":
     assert os.getcwd().endswith("/src"), "Your working directory must be in `/src/`."
-    loader = DataLoader(path=os.path.join(os.getcwd(), "../data/input/instagram.csv"))
+    loader = DataLoader(path=os.path.join(os.getcwd(), "data/input/instagram.csv"))
     data = loader.get_data()
     print(data.head())
