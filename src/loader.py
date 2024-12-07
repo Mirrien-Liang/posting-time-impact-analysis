@@ -12,13 +12,15 @@ class DataLoader:
             dtypes = self._prep_dtypes()
             cols = list(dtypes.keys())
 
-            return pd.read_csv(
+            data = pd.read_csv(
                 self.path,
                 encoding="utf-8",
                 index_col=False,
                 usecols=cols,
                 dtype=dtypes,
             )
+            print(f"Loaded data from {self.path}")
+            return data
 
         except Exception as e:
             print(f"Error loading data: {e}")
