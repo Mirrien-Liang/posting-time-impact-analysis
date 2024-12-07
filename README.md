@@ -1,27 +1,28 @@
-# CMPT353-Project
+# CMPT353 Project
 
 ### **Description:**
 
-Group project for course CMPT 353 D1 Fall 2024
+Group project for course CMPT 353 D1 Fall 2024.
 
+Author: Mirrien Liang, Ohm Avihingsanon
+Date: December 6, 2024
 
-## Table of Contents
+## Set up environment
+Make sure you have Python 3.12.0.
 
-- [Quickstart](#quick-start)
-- [Troubleshooting](#troubleshooting)
-- [Disclaimer](#disclaimer)
-
-## Project Structure
-
-The package structure organizes as follows:
-
-```
-.
+Install all dependencies by running the following command in terminal:
+```bash
+pip install -r requirements.txt
 ```
 
-## Quick Start
+## Entry Point
+The main executable is:
+```bash
+python main.py
+```
 
-## Troubleshooting
+## Results
+Progress are updated in the console directly. Intermediate plots are stored in `./figures` with meaningful names (see interpretation in the report).
 
-## Disclaimer
-
+## Jupyter Notebook
+As a backup, a notebook at `./notebooks/data_cleaning.ipynb` showed the analysis in a breakdown fashion.
