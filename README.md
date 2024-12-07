@@ -1,10 +1,11 @@
-# CMPT353-Project
+# CMPT353 Project
 
 ### **Description:**
 
 Group project for course CMPT 353 D1 Fall 2024.
 
 Author: Mirrien Liang, Ohm Avihingsanon
+Date: December 6, 2024
 
 ## Set up environment
 Make sure you have Python 3.12.0.
