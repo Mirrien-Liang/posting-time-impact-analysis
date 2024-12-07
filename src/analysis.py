@@ -183,7 +183,7 @@ plt.xticks(
 plt.yticks(rotation=0)
 plt.tight_layout()
 #plt.show()
-plt.saveas('.././figures/EPF_heatmap.png')
+plt.savefig('.././figures/EPF_heatmap.png')
 print('saved EPF_heatmap.png')
 
 # Get top N significant pairs
